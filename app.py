@@ -9,6 +9,8 @@ import pandas as pd
 mothers = pd.read_csv('mothers.csv')
 
 app = dash.Dash()
+server = app.server 
+app.title = 'Mothers Day Celebrations Around the World'
 
 app.layout = html.Div([
     dcc.Graph(id='nothin_really',
