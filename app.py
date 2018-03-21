@@ -49,5 +49,5 @@ app.layout = html.Div([
               })
 ])
 
-
-app.run_server()
+if __name__ == '__main__':
+    app.run_server()
