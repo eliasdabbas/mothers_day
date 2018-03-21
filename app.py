@@ -23,7 +23,7 @@ app.layout = html.Div([
                                          hovertext='<b>'+ mothers[mothers['celebration_date']==c]['country'] + '</b>' +'<br>'+ 
                                          mothers[mothers['celebration_date']==c]['celebration_date'])
                            for c in mothers['celebration_date'].unique()],
-                  'layout': {'title': 'Mothers Day Celebrations Across the World',
+                  'layout': {'title': 'Mothers Day Celebrations Around the World',
                             'font': {'family': 'Palatino'},
                             'titlefont': {'size': 22},
                             'paper_bgcolor': '#eeeeee',
